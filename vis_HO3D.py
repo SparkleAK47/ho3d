@@ -196,8 +196,9 @@ if __name__ == '__main__':
 
             # create matplotlib window
             fig = plt.figure(figsize=(2, 3))
-            figManager = plt.get_current_fig_manager()
-            figManager.resize(*figManager.window.maxsize())
+            # figManager = plt.get_current_fig_manager()
+            # figManager.resize(*figManager.window.maxsize())
+            print("You can maximize it manually.")
 
             # show RGB image
             ax0 = fig.add_subplot(2, 3, 1)

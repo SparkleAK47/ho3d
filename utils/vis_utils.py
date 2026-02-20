@@ -80,7 +80,7 @@ def showHandJoints(imgInOrg, gtIn, filename=None):
 
     PYTHON_VERSION = sys.version_info[0]
 
-    gtIn = np.round(gtIn).astype(np.int)
+    gtIn = np.round(gtIn).astype(np.int64)
 
     if gtIn.shape[0]==1:
         imgIn = cv2.circle(imgIn, center=(gtIn[0][0], gtIn[0][1]), radius=3, color=joint_color_code[0],

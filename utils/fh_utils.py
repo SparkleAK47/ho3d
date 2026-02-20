@@ -81,7 +81,7 @@ def showHandJoints(imgInOrg, gtIn, filename=None):
 
     PYTHON_VERSION = sys.version_info[0]
 
-    gtIn = np.round(gtIn).astype(np.int)
+    gtIn = np.round(gtIn).astype(np.int64)
 
     for joint_num in range(gtIn.shape[0]):
 
