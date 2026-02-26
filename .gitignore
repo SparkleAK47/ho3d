@@ -137,6 +137,6 @@ compute_visibility_ho3d.py
 pred_for_gt_checking.py
 tmp
 *.json
-mano
+mano/
 
-
+*.bak

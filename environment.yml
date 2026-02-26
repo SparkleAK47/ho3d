@@ -3,8 +3,8 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8                # 固定 Python 大版本，让 conda 自动选小版本
-  - numpy                     # 不锁版本，conda 会选与 3.8 兼容的最新版
+  - python=3.8                
+  - numpy                     
   - matplotlib
   - scikit-image
   - pandas
@@ -15,4 +15,4 @@ dependencies:
   - pip:
       - transforms3d
       - open3d
-      - chumpy               # 先安装，后面立刻打补丁
+      - chumpy               # avoid git clone
